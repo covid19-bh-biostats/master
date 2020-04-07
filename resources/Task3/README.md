@@ -1,1 +1,1 @@
-List of resources here
+Go to https://github.com/covid19-bh-biostats/seir
