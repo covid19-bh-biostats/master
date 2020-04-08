@@ -21,23 +21,17 @@ date: 08 April 2020
 bibliography: paper.bib
 ---
 
-# Introduction or Background
+# Introduction
 
 Add to this section a couple of paragraphs introducing the work done dring the BioHackathon, CodeFest, VoCamp or Sprint event. Please add references whenever needed, for instance [@Katayamaetal-2010].
 
 Please separate paragraphs with a double line.
 
-## Subsection level 2
+# Previous works on modeling COVID-19 epidemics
 
-Please keep sections to a maximum of three levels, even better if only two levels.
 
-### Subsection level 3
 
-Please keep sections to a maximum of three levels.
-
-## Tables, figures and so on
-
-Please remember to introduce tables (see Table 1) before they appear on the document. We recommend to center tables, formulas and figure but not the corresponding captions. Feel free to modify the table style as it better suits to your data.
+## Epidemic parameters
 
 Table 1
 | Header 1 | Header 2 |
@@ -45,19 +39,31 @@ Table 1
 | item 1 | item 2 |
 | item 3 | item 4 |
 
+# SEIR software package
+
+Please keep sections to a maximum of three levels, even better if only two levels.
+
+# Country-dependent epidemic parameters 
+
+## Parameter estimation methods
+Please keep sections to a maximum of three levels.
+
+## Data sources
+
+Please remember to introduce tables (see Table 1) before they appear on the document. We recommend to center tables, formulas and figure but not the corresponding captions. Feel free to modify the table style as it better suits to your data.
+
+
+
 Remember to introduce figures (see Figure 1) before they appear on the document. 
 
 ![BioHackrXiv logo](./biohackrxiv.png)
  
 Figure 1. A figure corresponding to the logo of our BioHackrXiv preprint.
 
-# Other main section on your manuscript level 1
+# Patterns in location-specific epidemic parameters 
 
-Feel free to use numbered lists or bullet points as you need.
-* Item 1
-* Item 2
 
-# Discussion and/or Conclusion
+# Conclusions
 
 We recommend to include some discussion or conclusion about your work. Feel free to modify the section title as it fits better to your manuscript.
 
