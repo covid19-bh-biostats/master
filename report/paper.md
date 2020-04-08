@@ -1,8 +1,10 @@
 ---
 title: 'BioHackrXiv  template'
 tags:
-  - replace with your own keywords
-  - at least is recommended
+  - Epidemic modelling
+  - Age-structured SEIR model
+  - CoVID-19
+  - SARS-CoV-2
 authors:
   - name: Lukas Heumos
     orcid: 0000-0002-8937-3457
