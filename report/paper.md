@@ -1,5 +1,5 @@
 ---
-title: 'BioHackrXiv  template'
+title: 'Epidemic modeling of CoVID-19 pandemic'
 tags:
   - Epidemic modelling
   - Age-structured SEIR model
