@@ -120,7 +120,6 @@ MS_Zaandam
 Macao_SAR
 Macau
 Madagascar
-Mainland_China
 Malawi
 Malaysia
 Maldives
