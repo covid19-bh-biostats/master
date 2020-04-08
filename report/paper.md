@@ -4,23 +4,18 @@ tags:
   - replace with your own keywords
   - at least is recommended
 authors:
-  - name: First Last
-    orcid: 0000-0000-0000-0000
-    affiliation: 1
-  - name: Second Last
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
   - name: Lukas Heumos
     orcid: 0000-0002-8937-3457
-    affiliation: 3
+    affiliation: 1
+  - name: Janne Solanpää
+    orcid: 0000-0001-9382-6474
+    affiliation: 2
 affiliations:
- - name: Institution 1, address, city, country
+ - name: University of Tübingen/Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
    index: 1
- - name: Institution 1, address, city, country
+ - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
    index: 2
- - name: Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
-   index: 3
-date: 01 January 2020
+date: 08 April 2020
 bibliography: paper.bib
 ---
 
