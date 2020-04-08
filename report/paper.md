@@ -23,9 +23,24 @@ bibliography: paper.bib
 
 # Introduction
 
-Add to this section a couple of paragraphs introducing the work done dring the BioHackathon, CodeFest, VoCamp or Sprint event. Please add references whenever needed, for instance [@Katayamaetal-2010].
+In late 2019, a previously unknown virus began spreading within the population of the Wuhan-city 
+in the Hubei province of China [@Huang-Jan2020]. The virus, identified as a new type of coronavirus [@WHO-sitrep1],
+has since spread over the globe as a pandemic of an unprecedented scale [@WHO-press-pandemic,@WHO-sitrep78].
 
-Please separate paragraphs with a double line.
+Fast spread and seriousness of the novel coronavirus disease (*CoVID-19*) has prompted international and national
+actions to slow the spread of CoVID-19 and mitigate its impact on society [TODO citation].
+Due to novelty of the disease, its clinical and epidemiological traits are largely uncertain [TODO] and
+under active investigation [TODO]. This has forced policymakers around the globe to introduce a variety of
+restrictions, many of which are based on imprecise models and forecasts due to uncertainties in model parameters [TODO].
+
+In this work we address the parameter uncertainties and modeling difficulties. We provide a review
+of previous models used in analyzing and forecasting the CoVID-19 epidemic in different geographical locations;
+followed by a summary of the most important epidemiological parameters in the reviewed studies.
+Next, we have developed a Python software package [*SEIR*](https://github.com/covid19-bh-biostats/seir/) 
+implementing a modular SEIR-model that can be used for epidemic forecasting including, e.g., age-structure, 
+social contact patterns, and restriction policies of the area of interest. We use the *SEIR* package
+to fit the model parameters in various geographical locations and continue with a pattern-search among the 
+estimated parameters. We conclude this paper with a summary and outlook.
 
 # Previous works on modeling COVID-19 epidemics
 
