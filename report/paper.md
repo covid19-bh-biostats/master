@@ -75,8 +75,7 @@ For citations of references, we prefer the use of parenthesis, last name and yea
 
 # Jupyter notebooks, GitHub repositories and data repositories
 
-* Please add a list here
-* Make sure you let us know which of these correspond to Jupyter notebooks. Although not supported yet, we plan to add features for them
+* [SEIR-package](https://github.com/covid19-bh-biostats/seir/) — a Python software package for epidemic modeling
 * And remember, software and data need a license for them to be used by others, no license means no clear rules so nobody could legally use a non-licensed research object, whatever that object is
 
 # Acknowledgements
