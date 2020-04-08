@@ -10,11 +10,16 @@ authors:
   - name: Second Last
     orcid: 0000-0000-0000-0000
     affiliation: 2
+  - name: Lukas Heumos
+    orcid: 0000-0002-8937-3457
+    affiliation: 3
 affiliations:
  - name: Institution 1, address, city, country
    index: 1
  - name: Institution 1, address, city, country
    index: 2
+ - name: Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
+   index: 3
 date: 01 January 2020
 bibliography: paper.bib
 ---
