@@ -12,16 +12,21 @@ authors:
   - name: Lukas Heumos
     orcid: 0000-0002-8937-3457
     affiliation: 2
+  - name: Fotis Psomopoulos
+    orcid: 0000-0002-0222-4273
+    affiliation: 3
   - name: Janne Solanpää
     orcid: 0000-0001-9382-6474
-    affiliation: 3
+    affiliation: 4
 affiliations:
  - name: Institute for Clinical Epidemiology and Biometry, 97080, Würzburg, Germany
    index: 1
  - name: University of Tübingen/Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
    index: 2
+ - name: Institute of Applied Biosciences, Centre for Research and Technology Hellas, 6th km Charilaou-Thermis rd, Thessaloniki, Greece
+   index: 3 
  - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
-   index: 3
+   index: 4
 date: 08 April 2020
 bibliography: paper.bib
 ---
@@ -53,15 +58,36 @@ estimated parameters. We conclude this paper with a summary and outlook.
 
 ## Epidemic parameters
 
-Table 1
-| Header 1 | Header 2 |
+The produced SEIR model supports the following main parameters (a full list is available through the model documentation [here](https://seir.readthedocs.io/) )
+
+Table 1: Outline of main parameters
+| Parameter | Description |
 | -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
+| incubation_period | Incubation period of the disease in days. |
+| infectious_period | How long a patient can infect others (in days) after the incubation period. |
+| initial_R0  | Basic reproductive number of the disease |
+| hospitalization_probability | Probability that an infected person needs hospitalization |
+| hospitalization_duration | Average duration of a hospitalization in days |
+| hospitalization_lag_from_onset | Average time (in days) from the onset of symptoms to admission to hospital |
+| icu_probability | Probability that an infected person needs hospitalization. |
+| icu_duration | Average duration of the need for intensive care in days. |
+| icu_lag_from_onset | Average time (in days) from the onset of symptoms to admission to ICU. |
+| death_probability | Probability that an infected person dies from the disease. |
+| death_lag_from_onset | Average time from the onset of symptoms to death (in days). |
+| population | The total population |
 
 # SEIR software package
 
-Please keep sections to a maximum of three levels, even better if only two levels.
+The python package implements SEIR modelling of covid19, and is available [here](https://github.com/covid19-bh-biostats/seir) under an [MIT License](https://github.com/covid19-bh-biostats/seir/blob/master/LICENSE).
+
+A key aspect of the implementation is the support for multiple compartments (e.g. age groups, locations, etc), as well as the application of restrictions (e.g. social distancing, closing of schools etc) by introducing time-dependence in the infectivity rate.
+
+The output of the package is always a `csv` file, with optional visualiazations. An example visualization of the results is shown in Figure 1.
+
+![SEIR Model Output](./biohackrxiv.png)
+ 
+Figure 1. A figure showing the output of the SEIR model package
+
 
 # Country-dependent epidemic parameters 
 
@@ -74,11 +100,6 @@ Please remember to introduce tables (see Table 1) before they appear on the docu
 
 
 
-Remember to introduce figures (see Figure 1) before they appear on the document. 
-
-![BioHackrXiv logo](./biohackrxiv.png)
- 
-Figure 1. A figure corresponding to the logo of our BioHackrXiv preprint.
 
 # Patterns in location-specific epidemic parameters 
 
@@ -89,9 +110,7 @@ We recommend to include some discussion or conclusion about your work. Feel free
 
 # Future work
 
-And maybe you want to add a sentence or two on how you plan to continue. Please keep reading to learn about citations and references.
-
-For citations of references, we prefer the use of parenthesis, last name and year. If you use a citation manager, Elsevier – Harvard or American Psychological Association (APA) will work. If you are referencing web pages, software or so, please do so in the same way. Whenever possible, add authors and year. We have included a couple of citations along this document for you to get the idea. Please remember to always add DOI whenever available, if not possible, please provide alternative URLs. You will end up with an alphabetical order list by authors’ last name.
+The model is robust, but we are now implementing a Genetic Algorithm wrapper that fits all underlying SEIR parameters to a given series of data points. The ultimate goal is to produce "time-series" of the parameters, so that a more coherent study of the different values across multiple cases can be performed. This includes aspects such as correlation to weather conditions (temperature, humidity, UV exposure, etc), as well as patterns based on the phylogenetic distance of the particular strains.
 
 # Jupyter notebooks, GitHub repositories and data repositories
 
