@@ -6,17 +6,22 @@ tags:
   - CoVID-19
   - SARS-CoV-2
 authors:
+  - name: Felizitas Eichner
+    orcid: 0000-0002-5415-0456
+    affiliation: 1
   - name: Lukas Heumos
     orcid: 0000-0002-8937-3457
-    affiliation: 1
+    affiliation: 2
   - name: Janne Solanpää
     orcid: 0000-0001-9382-6474
-    affiliation: 2
+    affiliation: 3
 affiliations:
- - name: University of Tübingen/Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
+ - name: Institute for Clinical Epidemiology and Biometry, 97080, Würzburg, Germany
    index: 1
- - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
+ - name: University of Tübingen/Quantitative Biology Center,  Auf der Morgenstelle 10, Tübingen, Germany
    index: 2
+ - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
+   index: 3
 date: 08 April 2020
 bibliography: paper.bib
 ---
