@@ -30,8 +30,8 @@ affiliations:
    index: 3 
  - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
    index: 4
-- name: ETH Zurich, Switzerland
-  index: 5
+ - name: ETH Zurich, 8092 Zurich, Switzerland
+   index: 5
 date: 08 April 2020
 bibliography: paper.bib
 ---
