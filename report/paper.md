@@ -31,7 +31,7 @@ affiliations:
  - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
    index: 4
 - name: ETH Zurich, Switzerland
-   index: 5
+  index: 5
 date: 08 April 2020
 bibliography: paper.bib
 ---
@@ -106,7 +106,7 @@ All Data sources can be found in the [Project Github Dat Repository](https://git
 Table 2: Data sources
 | Data | Description |
 | -------- | -------- |
-| Global COVID-19 Daily Cases by Country | Country level data from Johns Hopkins University.|
+| Global COVID-19 Daily Cases by Country | Country level data from Johns Hopkins University on daily cases and deaths.|
 | Spanish COVID-19 Daily Cases | Spanish COVID-19 cases, deaths, hospitalised and icu patients by day. Data from Spanish Government by datadista.|
 | Policies Europe | Dataset with interventions taken in Europe by date.|
 | UN Demographics Data | Population census datasets from United Nations Statistics Division|
