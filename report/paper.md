@@ -18,6 +18,9 @@ authors:
   - name: Janne Solanpää
     orcid: 0000-0001-9382-6474
     affiliation: 4
+  - name: Cecilia Valenzuela
+    orcid: 0000-0002-2774-4822
+    affiliation: 5
 affiliations:
  - name: Institute for Clinical Epidemiology and Biometry, 97080, Würzburg, Germany
    index: 1
@@ -27,6 +30,8 @@ affiliations:
    index: 3 
  - name: Tampere University/Computational Physics Laboratory, Tampere 33720, Finland
    index: 4
+- name: ETH Zurich, Switzerland
+   index: 5
 date: 08 April 2020
 bibliography: paper.bib
 ---
@@ -96,9 +101,16 @@ Please keep sections to a maximum of three levels.
 
 ## Data sources
 
-Please remember to introduce tables (see Table 1) before they appear on the document. We recommend to center tables, formulas and figure but not the corresponding captions. Feel free to modify the table style as it better suits to your data.
+All Data sources can be found in the [Project Github Dat Repository](https://github.com/covid19-bh-biostats/data)
 
-
+Table 2: Data sources
+| Data | Description |
+| -------- | -------- |
+| Global COVID-19 Daily Cases by Country | Country level data from Johns Hopkins University.|
+| Spanish COVID-19 Daily Cases | Spanish COVID-19 cases, deaths, hospitalised and icu patients by day. Data from Spanish Government by datadista.|
+| Policies Europe | Dataset with interventions taken in Europe by date.|
+| UN Demographics Data | Population census datasets from United Nations Statistics Division|
+| Climate data| Aggregate climate information per country (min/max/avg/std|
 
 
 # Patterns in location-specific epidemic parameters 
