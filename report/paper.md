@@ -114,13 +114,12 @@ Please keep sections to a maximum of three levels.
 All Data sources can be found in the [Project Github Dat Repository](https://github.com/covid19-bh-biostats/data)
 
 Table 2: Data sources
-| Data | Description |
-| -------- | -------- |
-| Global COVID-19 Daily Cases by Country | Country level data from Johns Hopkins University on daily cases and deaths.|
-| Spanish COVID-19 Daily Cases | Spanish COVID-19 cases, deaths, hospitalised and icu patients by day. Data from Spanish Government by datadista.|
-| Policies Europe | Dataset with interventions taken in Europe by date.|
-| UN Demographics Data | Population census datasets from United Nations Statistics Division|
-| Climate data| Aggregate climate information per country (min/max/avg/std|
+| Data | Description | Source |
+| -------- | -------- | -------- |
+| Global COVID-19 Daily Cases by Country | Country level data from Johns Hopkins University on daily cases and deaths.| https://github.com/CSSEGISandData/COVID-19
+| Spanish COVID-19 Daily Cases | Spanish COVID-19 cases, deaths, hospitalised and icu patients by day. Data from Spanish Government by datadista.| https://github.com/datadista/datasets
+| Policies Europe | Dataset with interventions taken in Europe by date.| https://github.com/ImperialCollegeLondon/covid19model
+| UN Demographics Data | Population census datasets from United Nations Statistics Division| https://unstats.un.org/unsd/demographic-social/
 
 
 # Patterns in location-specific epidemic parameters 
